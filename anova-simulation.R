@@ -33,19 +33,18 @@ anova_sim <- function(x, nreps = 5000){
   return(return_list)
 }
 
-#Part A
+#Part A ----
 data1 <- anova_sim(list(function() rnorm(10), function() rnorm(15), function() runif(20,-sqrt(3),sqrt(3))))
 data1
 
 
-#Part B
-set.seed(2020)
+#Part B ----
 data2 <- anova_sim(list(function() rnorm(10), function() rnorm(10), function() rnorm(10)))
 data2
 hist(data2[[2]])
 
 
-#Part C
+#Part C ----
 #Sample size
 n <- 2
 

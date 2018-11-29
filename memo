@@ -4,8 +4,6 @@ Homework #4
 
 For part A, the p-value of 0.05 lies within the confidence interval.
 
-For part B, the p-value of 0.05 lies within the confidence interval. All of the ANOVA assumptions are met. All of the samples come from normal distribtuions, each obervation is independent through randomization, the varainces are equal because the the rnom function has a sd of 1. The Null hypothesis is true becasue the average p-value is 0.05. The proportion of p-values less than 0.05 is 0.05000000.
+For part B, the p-value of 0.05 lies within the confidence interval. All of the ANOVA assumptions are met. All of the samples come from normal distribtuions, each obervation is independent through randomization, the varainces are equal because the the rnom function has a sd of 1. The Null hypothesis is true becasue the average p-value is 0.05. The proportion of p-values less than 0.05 is 0.05000000 as expected.
 
-For part C, all of the distrubutions do not come from a normal distribution. They still have independence and equal variances from randomization and having the same SD.
-
-When n is 2, the actual Type I errors in the simulation is 0.083. When n is 4, the actual Type I errors in the simulation is 0.058. When n is 10, the actual Type I errors in the simulation is 0.0574. As the sample size inceases, the Type I errors decrease and the confidence level range decreases. When n is 10, 0.05 is barely not within the condifence interval, the confidence interval is above alpha.
+For part C, all of the distrubutions do not come from a normal distribution. They still have independence and equal variances from randomization and having the same SD.When n is 2, the actual Type I errors in the simulation is 0.083. When n is 4, the actual Type I errors in the simulation is 0.058. When n is 10, the actual Type I errors in the simulation is 0.0574. As the sample size inceases, the Type I d the confidence level range decreases and becomes closer to 0.05. When n is 10, 0.05 is barely not within the condifence interval (meaning that it appraches 0.05 but doesn't quite get there), the confidence interval is above alpha.
