@@ -1,0 +1,7 @@
+Anova
+- When you return things in a vector, give them names so you know what they are. For example, on line 29, instead of "mean_and_ci <- c(lower_ci, p_hat, upper_ci)", say "mean_and_ci <- c(lower = lower_ci, estimate = p_hat, upper = upper_ci)"
+- The Null hypothesis isn't true becasue the average p-value is 0.05...it's true because they all came from populations that the mean is 0.
+
+
+Nice work!
+- Brandon
